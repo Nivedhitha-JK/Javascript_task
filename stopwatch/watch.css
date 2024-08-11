@@ -1,0 +1,50 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: linear-gradient(95deg, #FF4191, #6EACDA);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#myH1{
+color: white;
+letter-spacing: 2px;
+/* background: linear-gradient(90deg, #00dbde,#fc00ff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
+}
+#display{
+  font-family: monospace;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  backdrop-filter: blur(5px);
+  background-color: hsla(0, 0%, 100%, 0.1);
+  padding: 50px;
+  border-radius: 6px;
+  color: white;
+  /* border-image-slice: 1;
+  border-image-source:linear-gradient(90deg, #00dbde,#fc00ff);
+  border-width: 4px;
+  border-style: solid; */
+  /* border:1px solid linear-gradient(90deg, #00dbde,#fc00ff) */
+}
+
+#controls button{
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  min-width: 125px;
+  cursor: pointer;
+  background: linear-gradient(45deg,#36C2CE,#FF4191);
+  color: white;
+  transition: background-color 0.5s ease;
+}
+#startBtn:hover,#stopBtn:hover,#resetBtn:hover{
+  background: linear-gradient(205deg,#36C2CE,#FF4191);
+}
